@@ -1,0 +1,141 @@
+#body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+#main-header {
+    background-color: rgba(252, 137, 242, 0.8);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(247, 199, 240, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hero-text {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+#hello {
+    font-size: 45px;
+    margin-bottom: 0.5rem;
+    color: #f738dde8;
+}
+
+#hero-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+#about-image {
+    display: block;
+    margin: 0 auto 1rem;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills-list li {
+    background-color: #ff69b4;
+    color: white;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+#hobby-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 1rem;
+}
+
+#contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+#contact-form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #ff1493;
+}
+
+#social-links {
+    margin-top: 20px;
+}
+
+#social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+#footer {
+    margin: 200px;
+}
